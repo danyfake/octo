@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-//вывод большего числа
+//app which can get 2 args and print max value
 public class max_value {
 	public static void main(String[] args){ 
 		System.out.println("Enter integer number: "); 

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-//вычисление периметра квадрата и круга
+//app for calculating perimeter of square or circle
 public class perimetr {
 	public static void main(String[] args){ 
 		System.out.println("Enter 0-square, 1-circle: "); 
@@ -11,14 +11,14 @@ public class perimetr {
 		default: System.out.println("Out of scope");
 		}
 	} 
-	//вычисление периметра квадрата
+	//calculating perimeter of square
 	public static void Psquare(){
 		System.out.println("Enter the length of the sides of the square: "); 
 		int a = new Scanner(System.in).nextInt();
 		int p=4*a;
 		System.out.println("Perimeter = " + p);
 	}
-	//вычисление периметра круга
+	//calculating perimeter of circle
 	public static void Pcircle(){
 		System.out.println("Enter the radius of the circle: "); 
 		int a = new Scanner(System.in).nextInt();
