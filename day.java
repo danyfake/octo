@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 //app which can get 1 args as a number from [1-7] and prints day
-public class day {
+public class Day {
 	public static void main(String[] args){ 
 		System.out.println("Enter number [1-7]: "); 
 		int a = new Scanner(System.in).nextInt();

@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 //app which can get 2 args and print max value
-public class max_value {
+public class Max_value {
 	public static void main(String[] args){ 
 		System.out.println("Enter integer number: "); 
 		int a = new Scanner(System.in).nextInt();
